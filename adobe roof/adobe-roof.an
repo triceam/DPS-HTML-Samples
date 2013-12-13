@@ -1,0 +1,61 @@
+{
+
+	"HTMLFileName":"adobe-roof.html",
+	"PosterCapturePos":"5500",
+	"ModelData":"{\
+\"stage\": {\
+   \"timelines\": {\
+      \"Default Timeline\": {\
+      }\
+   }},\
+\"Preloader\": {\
+   \"timelines\": {\
+\
+   }},\
+\"Down-level\": {\
+   \"timelines\": {\
+\
+   }}\
+}",
+	"PosterImagePath":"images/Poster.png",
+	"pref__general__GenerateSmoothTransitions":"true",
+	"Down-level-Default Timeline_playhead_ms":"0",
+	"stage-Default Timeline_mark_ms":"0",
+	"StageZoomFactor":"50",
+	"pref__general__AutoKeyframePropertiesArmed":"true",
+	"CompZoomFactor":"100",
+	"symbol_stage":{
+		"defaultStageParentHeight":"450px",
+		"element_${_San-Francisco-192}":{
+			"timelineColor2":"0x81aa62",
+			"timelineColor3":"0x5b6c4d",
+			"animationEnabled":"true",
+			"timelineColor":"0x91c767"},
+		"dummyStageParentHeight":"450px",
+		"defaultStageParentWidth":"1441px",
+		"dummyStageParentWidth":"1441px",
+		"element_${_Stage}":{
+			"timelineColor2":"0xcbbd71",
+			"timelineColor3":"0x7b7652",
+			"timelineColor":"0xeedf79"},
+		"element_${_San-Francisco-background}":{
+			"timelineColor2":"0x4fa275",
+			"timelineColor3":"0x456a55",
+			"animationEnabled":"true",
+			"timelineColor":"0x50bd82"}},
+	"TransitionIdCounter":"13",
+	"symbol_Down-level":{
+		"defaultStageParentWidth":"1441px",
+		"defaultStageParentHeight":"450px",
+		"dummyStageParentWidth":"1441px",
+		"dummyStageParentHeight":"450px"},
+	"viewStartY":"0",
+	"pixelsPerMs":"0.031511330657048",
+	"nextElementColorIndex":"4",
+	"PubChromeFrameInstallerPrompt":"none",
+	"usedBOM":"false",
+	"PubDPS":"true",
+	"stage-Default Timeline_playhead_ms":"5500",
+	"pref__general__AutoKeyframeProperties":"true",
+	"PubUseChromeFrameInstaller":"false",
+	"pref__general__FilterNonAnimatedElements":"false"}

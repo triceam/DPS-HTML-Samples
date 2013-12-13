@@ -1,0 +1,45 @@
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+        <title>Parallax Vertical Background</title>
+        <link rel="stylesheet" href="assets/styles.css">
+        <script src="assets/zepto.js"></script>
+        <script>
+        
+            document.addEventListener('touchstart',function(event){event.preventDefault();return false;});
+            
+            window.ondeviceorientation = function(event) {
+                gamma = event.gamma/90;
+                beta = event.beta/180;
+                var temp = 0;
+                
+                switch (window.orientation) {
+                    case 90: 
+                        temp = gamma;
+                        gamma = beta;
+                        beta = temp;
+                        break;
+                    case -90: 
+                        temp = -gamma;
+                        gamma = beta;
+                        beta = temp;
+                        break;
+                            
+                }
+             
+                var yPosition = 1200 - (beta * 2200);
+                var xPosition = -200 + (gamma * 300);
+                xPosition = Math.max( -300, Math.min( 0,xPosition));
+                yPosition = -Math.max( 100, Math.min( 1400,yPosition));
+                //console.log(xPosition, yPosition);
+                
+                var css = xPosition + "px " + yPosition + "px";
+                $("body").css( "background-position", css);
+            }
+        
+        </script>
+    </head>
+    <body></body>
+</html>
