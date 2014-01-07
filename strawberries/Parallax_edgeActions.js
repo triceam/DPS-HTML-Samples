@@ -23,9 +23,18 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
          });
          
          window.ondeviceorientation = function(event) {
-            beta = Math.round(event.beta);
+            var delta = Math.round(event.beta);
          
-            var position = 15000 + (beta * 400);
+         	switch (window.orientation) {
+         		case 0: 
+         			delta = Math.round(event.gamma);
+         			break;
+         		case 180: 
+         			delta = -Math.round(event.gamma);
+         			break;
+         	}
+         
+            var position = 15000 + (delta * 400);
             position = Math.floor(position);
             sym.stop(position);
             console.log(position);

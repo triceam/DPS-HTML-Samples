@@ -1,7 +1,7 @@
 {
 
 	"HTMLFileName":"Parallax.html",
-	"pref__general__AutoKeyframeProperties":"true",
+	"PubUseChromeFrameInstaller":"false",
 	"ModelData":"{\
 \"stage\": {\
    \"timelines\": {\
@@ -14,17 +14,14 @@
    }},\
 \"Down-level\": {\
    \"timelines\": {\
-      \"Default Timeline\": {\
-      }\
+\
    }}\
 }",
-	"stage-Default Timeline_playhead_ms":"0",
 	"PosterImagePath":"images/Poster.png",
-	"PubChromeFrameInstallerPrompt":"none",
 	"pref__general__FilterNonAnimatedElements":"false",
-	"PubUseChromeFrameInstaller":"false",
-	"pref__general__AutoKeyframePropertiesArmed":"false",
 	"PosterCapturePos":"26000",
+	"pref__general__AutoKeyframePropertiesArmed":"false",
+	"pref__general__AutoKeyframeProperties":"true",
 	"symbol_stage":{
 		"element_${_olivia}":{
 			"timelineColor2":"0x1aa38f",
@@ -40,12 +37,7 @@
 			"animationEnabled":"true",
 			"invisible":"false"},
 		"defaultStageParentHeight":"1536px",
-		"element_${_berries}":{
-			"timelineColor2":"0x4fa275",
-			"timelineColor3":"0x456a55",
-			"timelineColor":"0x50bd82",
-			"animationEnabled":"true",
-			"invisible":"false"},
+		"codeTreeElementPopupFilter":"",
 		"defaultStageParentWidth":"2048px",
 		"element_${_plants}":{
 			"timelineColor2":"0x168c84",
@@ -57,14 +49,21 @@
 			"timelineColor2":"0xcbbd71",
 			"timelineColor3":"0x7b7652",
 			"timelineColor":"0xeedf79"},
-		"codeTreeElementPopupFilter":""},
+		"element_${_berries}":{
+			"timelineColor2":"0x4fa275",
+			"timelineColor3":"0x456a55",
+			"timelineColor":"0x50bd82",
+			"animationEnabled":"true",
+			"invisible":"false"}},
 	"TransitionIdCounter":"14",
 	"CompZoomFactor":"100",
 	"viewStartY":"0",
 	"pixelsPerMs":"0.019663914206009",
-	"stage-Default Timeline_mark_ms":"-1",
-	"nextElementColorIndex":"6",
-	"pref__general__GenerateSmoothTransitions":"true",
-	"PubDPS":"true",
+	"PubChromeFrameInstallerPrompt":"none",
+	"stage-Default Timeline_playhead_ms":"0",
 	"usedBOM":"false",
+	"PubDPS":"true",
+	"pref__general__GenerateSmoothTransitions":"true",
+	"nextElementColorIndex":"6",
+	"stage-Default Timeline_mark_ms":"-1",
 	"StageZoomFactor":"25"}
