@@ -30,14 +30,15 @@ var symbols = {
          {
             id:'plants',
             type:'image',
-            rect:['-314px','-787px','2503px','3337px','auto','auto'],
+            rect:['-219px','24px','1250px','858px','auto','auto'],
             fill:["rgba(0,0,0,0)",im+"plants.png",'0px','0px']
          },
          {
             id:'olivia',
             type:'image',
-            rect:['673px','177px','703px','1209px','auto','auto'],
-            fill:["rgba(0,0,0,0)",im+"olivia.png",'0px','0px']
+            rect:['336px','146px','351px','604px','auto','auto'],
+            fill:["rgba(0,0,0,0)",im+"olivia.png",'0px','0px'],
+            transform:[]
          },
          {
             id:'berries',
@@ -51,29 +52,33 @@ var symbols = {
       },
    states: {
       "Base State": {
+         "${_plants}": [
+            ["style", "top", '24px'],
+            ["style", "left", '-136px']
+         ],
          "${_berries}": [
-            ["style", "top", '642px'],
-            ["style", "left", '-397px']
+            ["style", "top", '377px'],
+            ["style", "height", '519px'],
+            ["style", "left", '-202px'],
+            ["style", "width", '1251px']
          ],
          "${_Stage}": [
             ["color", "background-color", 'rgba(255,255,255,1)'],
-            ["style", "overflow", 'hidden'],
-            ["style", "height", '1536px'],
-            ["style", "width", '2048px']
+            ["style", "width", '1024px'],
+            ["style", "height", '768px'],
+            ["style", "overflow", 'hidden']
          ],
          "${_olivia}": [
-            ["style", "left", '673px'],
-            ["style", "top", '177px']
+            ["style", "top", '146px'],
+            ["style", "height", '604px'],
+            ["style", "left", '336px'],
+            ["style", "width", '351px']
          ],
          "${_bakground}": [
+            ["style", "top", '-8px'],
+            ["style", "height", '938px'],
             ["style", "left", '-22px'],
-            ["style", "top", '-8px']
-         ],
-         "${_plants}": [
-            ["style", "top", '23px'],
-            ["style", "height", '1715px'],
-            ["style", "left", '-234px'],
-            ["style", "width", '2500px']
+            ["style", "width", '1250px']
          ]
       }
    },
@@ -84,10 +89,9 @@ var symbols = {
          duration: 30000,
          autoPlay: true,
          timeline: [
-            { id: "eid13", tween: [ "style", "${_plants}", "left", '-314px', { fromValue: '-234px'}], position: 0, duration: 30000 },
-            { id: "eid1", tween: [ "style", "${_bakground}", "left", '-222px', { fromValue: '-22px'}], position: 0, duration: 30000 },
-            { id: "eid3", tween: [ "style", "${_berries}", "left", '-127px', { fromValue: '-397px'}], position: 0, duration: 30000 },
-            { id: "eid7", tween: [ "style", "${_berries}", "top", '642px', { fromValue: '642px'}], position: 30000, duration: 0 }         ]
+            { id: "eid32", tween: [ "style", "${_berries}", "left", '-90px', { fromValue: '-202px'}], position: 0, duration: 30000 },
+            { id: "eid37", tween: [ "style", "${_plants}", "left", '-219px', { fromValue: '-136px'}], position: 0, duration: 30000 },
+            { id: "eid1", tween: [ "style", "${_bakground}", "left", '-222px', { fromValue: '-22px'}], position: 0, duration: 30000 }         ]
       }
    }
 }
